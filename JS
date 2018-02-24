@@ -1,0 +1,22 @@
+<script type="text/javascript"> 
+var Stimmung = prompt("Guten Morgen! Wie geht es dir heute?");
+
+if (Stimmung == null || Stimmung == "") {
+    window.document.write("Das ist aber net nett. Probier mal mit Ok, Gut, Sehr gut, Schlecht ;) ");
+}
+else if (Stimmung == "Gut") {
+window.document.write("Sehr schoen, wuensche Dir schoenen Tag!");
+} 
+else if (Stimmung == "Sehr gut") {
+window.document.write("Wunderbar, wuensche Dir schoenen Tag!");
+} 
+else if (Stimmung == "OK") {
+window.document.write("Hm... Wie kann man dich gluecklich machen?");
+} 
+else if (Stimmung == "Schlecht") {
+window.document.write("Oh no! Daran muessen wir was aendern! Schocko?");
+} 
+else {
+window.document.write("Es gibt nur folgende Varianten: Gut, Sehr gut, OK und Schlecht. Refreshe mal deine Seite");
+} 
+</script>
